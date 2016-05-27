@@ -1,0 +1,14 @@
+{
+  "name": "midas-tron",
+  "version": "1.0.0",
+  "description": "midas-tron",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+
+  },
+  "author": "",
+  "license": "Apache-2.0"
+
+}
