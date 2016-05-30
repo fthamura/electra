@@ -12,13 +12,13 @@ window.onload = function() {
   var ul = document.querySelector("ul");
   fs.readdir (process.env.HOME, function (err, entries) {
     entries.forEach(function(entry) {
-      if (!entry.startWith (".")) {
+      if ( !entry.startWith ( "." ) ) {
         var li = document.createElement ("li");
         li.textContent = entry;
         ul.appendChild(li);
       }
-  });
+    });
 
-});
+  });
 
 };
